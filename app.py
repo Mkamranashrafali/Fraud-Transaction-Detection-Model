@@ -221,5 +221,17 @@ elif page == "ℹ About":
         </div>
         """, unsafe_allow_html=True)
 
+    # --- NEW: DEVELOPER INFORMATION CARD ---
+    st.markdown("""
+    <div class="about-card">
+        <h3>👨‍💻 About the Developer</h3>
+        <p>This application was developed by <strong>Kamran Ashraf</strong>, a passionate developer and data enthusiast with a focus on building practical machine learning solutions.</p>
+        <p>Connect with the developer:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/kamranashrafali/" target="_blank">🔗 GitHub</a></li>
+            <li><a href="https://github.com/Mkamranashrafali/" target="_blank">👔 LinkedIn</a></li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
 
     st.warning("⚠ *Disclaimer:* This is a demo tool for educational purposes. Real-world fraud detection systems are significantly more complex.", icon="❗")
